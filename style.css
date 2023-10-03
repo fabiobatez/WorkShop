@@ -118,7 +118,7 @@ header{
     height: 1000px; 
     background-color: transparent; 
     text-align: center; 
-    border: solid rgb(30, 60, 11);;
+    border: solid rgb(30, 60, 11);
     display: flex; 
     color: rgb(30, 60, 11);;
     justify-content: center; 
@@ -133,3 +133,124 @@ header{
     background-color: rgb(30, 60, 11);; /* Couleur de fond au survol */
     color: white;
 }
+
+/* Styles pour le formulaire */
+form {
+    display: flex; 
+    flex-direction: column; 
+    width: 300px; 
+    margin: 0 auto;
+}
+
+/* Styles pour les labels */
+label {
+    margin-bottom: 10px; 
+}
+
+/* Styles pour les champs de saisie (input) */
+input[type="text"],
+input[type="password"] {
+    width: 100%; 
+    padding: 5px;
+    margin-bottom: 10px; 
+}
+
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: -400px;
+        background: transparent;
+        border-radius: 12px;
+        border: solid rgb(30, 60, 11); 
+    }
+    .center h1{
+        text-align: center;
+        padding: 0 0 20 px 0;
+        border-bottom: 1px solid silver;
+    }
+
+    .center form{
+        width: 650px; /* Largeur du formulaire */
+        height: 400px; /* Hauteur du formulaire */
+        margin: 0 auto; /* Centrer le formulaire horizontalement */
+        padding: 20px;
+    }
+
+    form .txt_fiield{
+        position: relative;
+        border-bottom: 2px solid #adadad;
+        margin: 30px 0;
+    }
+    .txt_fiield input{
+        width:  100%;
+        padding: 0 5px;
+        height: 40px;
+        font-size: 16px;
+        border: none ;
+        background: transparent;
+        outline: none;
+    }
+    .hi{
+        color: rgb(30, 60, 11);;
+    }
+    .hii{
+        color: rgb(30, 60, 11);;
+        text-align: center;
+    }
+
+    .bouton{
+        width:300px; 
+        height: 70px;
+    background-color: transparent; 
+    text-align: center; 
+    border: solid rgb(30, 60, 11);
+    display: flex; 
+    color: rgb(30, 60, 11);;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 8px;
+    font-size: 25px;
+    }
+
+    .lien{
+       
+        text-decoration: none;
+        color:  rgb(30, 60, 11);
+    }
+
+    .signup_link{
+        margin-top: 25px;
+        font-size: 20px;
+    }
+
+    .bouton:hover {
+        background-color: rgb(30, 60, 11);; /* Couleur de fond au survol */
+        color: white;
+    }
+    
+    .center2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: -400px;
+        background: transparent;
+        border-radius: 12px;
+        border: solid rgb(30, 60, 11); 
+       
+    }
+
+    .center2 form{
+        width: 750px; /* Largeur du formulaire */
+        height: 800px; /* Hauteur du formulaire */
+        margin: 0 auto; /* Centrer le formulaire horizontalement */
+        padding: 20px;
+    }
