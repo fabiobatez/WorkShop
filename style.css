@@ -213,17 +213,17 @@ input[type="password"] {
     }
 
     .bouton{
-        width:300px; 
-        height: 70px;
-    background-color: transparent; 
-    text-align: center; 
-    border: solid rgb(30, 60, 11);
-    display: flex; 
-    color: rgb(30, 60, 11);;
-    justify-content: center; 
-    align-items: center;
-    border-radius: 8px;
-    font-size: 25px;
+            width:300px; 
+            height: 70px;
+            background-color: transparent; 
+            text-align: center; 
+            border: solid rgb(30, 60, 11);
+            display: flex; 
+            color: rgb(30, 60, 11);;
+            justify-content: center; 
+            align-items: center;
+            border-radius: 8px;
+            font-size: 25px;
     }
 
     .lien{
@@ -341,10 +341,20 @@ input[type="password"] {
 }
 
 .footer{
-    margin-top: 400px;
+    
     background-color: rgb(30, 60, 11);;
     color: white;
-    height: 300px;
+    height: 330px;
+    width: 10000px;
+    position: absolute;
+    margin-top: 1200px
+    /*bottom: 0;*/
+
+   /* margin-top: 800px;
+    background-color: rgb(30, 60, 11);;
+    color: white;
+    height: 300px;*/
+   
    
 }
 
@@ -375,4 +385,109 @@ input[type="password"] {
     background-color: white; /* Couleur de fond au survol */
     color: rgb(30, 60, 11);
     text-decoration: none;
+}
+
+.telImage{
+    margin-top: 100px;
+}
+
+.bProd{
+    margin-top: -250px;font-size: 70px; 
+}
+
+.image-preview {
+    max-width: 100px; /* Largeur maximale souhaitée */
+    max-height: 200px; /* Hauteur maximale souhaitée, ajustez selon vos besoins */
+    margin-top: 110px;
+    margin-left: 650px;
+}
+
+.cent{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: -100px;
+    /*margin-left: 400px;*/
+    background: transparent;
+    border-radius: 12px;
+    
+}
+
+.image-label{
+        font-size: 25px;
+        
+}
+
+.btn{
+    width:300px; 
+    height: 70px;
+    background-color: transparent; 
+    text-align: center; 
+    border: solid rgb(30, 60, 11);
+    display: flex; 
+    color: rgb(30, 60, 11);;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 8px;
+    font-size: 25px;
+}
+.btn:hover {
+    background-color: rgb(30, 60, 11);; /* Couleur de fond au survol */
+    color: white;
+}
+.fomImage{
+   
+    position: fixed;
+    top: 10px; /* Position verticale à partir du haut */
+    right: 650px; /* Position horizontale à partir de la droite */
+    background-color: white;
+}
+
+.table-style  {
+    width: 100%;
+    margin: 0px;
+    font-size: 10px;
+  }
+  th, td {
+    padding: 10px 7px;
+}
+
+
+.table-style  {
+    font-size: 25px;
+    margin-top: 500px;
+    border-collapse: collapse;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    cursor: pointer;
+    margin: 0px auto;
+    border: 2px solid midnightblue;
+}
+
+thead tr {
+    background-color: midnightblue;
+    color: #fff;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+
+.matable{
+    margin-top: 1000px;
+}
+
+.bProd2{
+    margin-top: -350px;
+    font-size: 70px; 
 }
